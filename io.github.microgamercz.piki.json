@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.12.0.tar.gz",
-                    "sha256": "809afafab61593f994c005ca6e242300e1e3e7f4db8b5d41f8c642aab9450fbc",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.13.0.tar.gz",
+                    "sha256": "4bff7513c5c8e301b66308df05795043b1792ed16381a484e5c990171b8ff19e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 236236,
@@ -77,8 +77,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.9.0.tar.xz",
-                    "sha256": "21314a91f26b1c962def3fd7ff2e762d3358b075f63f4d7e0144fb2c63b7ebc7",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.12.0.tar.xz",
+                    "sha256": "513051dff8417da1819d6ae89d6c21a03654c9a60891df60df6aba13df19d21b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
