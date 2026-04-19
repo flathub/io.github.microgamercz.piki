@@ -1,9 +1,9 @@
 {
     "id": "io.github.microgamercz.piki",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.9",
+    "base-version": "6.10",
     "sdk": "org.kde.Sdk",
     "command": "piki",
     "finish-args": [
@@ -24,28 +24,6 @@
     ],
     "modules": [
         {
-            "name": "qcoro",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=Release",
-                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.12.0.tar.gz",
-                    "sha256": "809afafab61593f994c005ca6e242300e1e3e7f4db8b5d41f8c642aab9450fbc",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 236236,
-                        "stable-only": true,
-                        "url-template": "https://github.com/danvratil/qcoro/archive/refs/tags/v$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "futuresql",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -65,50 +43,6 @@
                         "url-template": "https://download.kde.org/stable/futuresql/futuresql-$version.tar.xz"
                     }
                 }
-            ]
-        },
-        {
-            "name": "kirigami-addons",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=Release"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.9.0.tar.xz",
-                    "sha256": "21314a91f26b1c962def3fd7ff2e762d3358b075f63f4d7e0144fb2c63b7ebc7",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 242933,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "libsecret",
-            "buildsystem": "meson",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.7.tar.xz",
-                    "sha256": "6b452e4750590a2b5617adc40026f28d2f4903de15f1250e1d1c40bfd68ed55e",
-                    "x-checker-data": {
-                        "type": "gnome",
-                        "name": "libsecret",
-                        "stable-only": true
-                    }
-                }
-            ],
-            "config-opts": [
-                "-Dgtk_doc=false",
-                "-Dintrospection=false",
-                "-Dmanpage=false",
-                "-Dvapi=false",
-                "-Dcrypto=disabled"
             ]
         },
         {
