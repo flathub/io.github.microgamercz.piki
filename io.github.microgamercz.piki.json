@@ -93,7 +93,8 @@
                 {
                     "type": "patch",
                     "paths": [
-                        "temporary-desktop-file-version-fix.patch"
+                        "temporary-desktop-file-version-fix.patch",
+                        "temporary-metainfo-release-fix.patch"
                     ]
                 }
             ]
