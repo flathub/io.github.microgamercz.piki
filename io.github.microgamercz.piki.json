@@ -89,6 +89,12 @@
                     "type": "archive",
                     "url": "https://github.com/MicrogamerCz/Piki/archive/0.4.0.tar.gz",
                     "sha256": "edf0ad8db45e7cf21890543f17bd0336522385f3cdd5d9fc716c7315e5a2040c"
+                },
+                {
+                    "type": "patch",
+                    "paths": [
+                        "temporary-desktop-file-version-fix.patch"
+                    ]
                 }
             ]
         }
