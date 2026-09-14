@@ -26,15 +26,14 @@
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/frankosterfeld/qtkeychain/archive/0.15.0.tar.gz",
-                    "sha256": "f4254dc8f0933b06d90672d683eab08ef770acd8336e44dfa030ce041dc2ca22",
+                    "type": "git",
+                    "url": "https://github.com/frankosterfeld/qtkeychain",
+                    "tag": "0.17.0",
                     "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 4138,
-                        "stable-only": true,
-                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/$version.tar.gz"
-                    }
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    },
+                    "commit": "875f77d9f61bd97fd84cca47ce3bc71186dfbd09"
                 }
             ],
             "config-opts": [
@@ -77,7 +76,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MicrogamerCz/Piqi",
-                    "tag": "0.3.2"
+                    "tag": "0.3.2",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    },
+                    "commit": "f9d89d4460c961296b285bd39a895368d39343fd"
                 }
             ]
         },
@@ -89,7 +93,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/MicrogamerCz/Piki",
-                    "tag": "0.5.0"
+                    "tag": "0.5.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    },
+                    "commit": "6463d5d45dd8746f5a5b119bfd095267c16d5a75"
                 }
             ]
         }
