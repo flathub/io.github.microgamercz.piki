@@ -28,12 +28,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/frankosterfeld/qtkeychain",
-                    "tag": "0.17.0",
+                    "tag": "0.18.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "commit": "875f77d9f61bd97fd84cca47ce3bc71186dfbd09"
+                    "commit": "e86bc3cbb50b172be61ed857803a372412b6ad85"
                 }
             ],
             "config-opts": [
